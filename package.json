@@ -1,0 +1,24 @@
+{
+  "name": "projetoppim3av",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para aula ao vivo numero 3",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloM95/ProjetoPPIM3AV.git"
+  },
+  "author": "Marcelo Majaron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloM95/ProjetoPPIM3AV/issues"
+  },
+  "homepage": "https://github.com/MarceloM95/ProjetoPPIM3AV#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
