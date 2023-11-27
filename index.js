@@ -77,8 +77,9 @@ function processarCadastroUsuario(requisicao, resposta) {
                     Por favor, informe o CEP!
                 </div>
             </div>
-        `;
-        conteudoResposta += `
+            <div class="col-12 mt-2">
+                <button class="btn btn-primary" type="submit">Cadastrar</button>
+            </div>
             <div class="col-12 mt-2">
                 <p class="text-danger">Por favor, corrija os erros no formulário.</p>
             </div>
@@ -94,11 +95,7 @@ function processarCadastroUsuario(requisicao, resposta) {
         }
         listaUsuarios.push(usuario);
     }
-
     conteudoResposta += `
-                    <div class="col-12 mt-2">
-                        <button class="btn btn-primary" type="submit">Cadastrar</button>
-                    </div>
                 </fieldset>
             </form>
         </div>
